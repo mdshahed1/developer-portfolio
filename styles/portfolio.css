@@ -9,7 +9,7 @@
 
 .btn-primary {
   color: #ffffff;
-  height: 64px;
+  height: 60px;
   background: #fd6e0a;
   border-radius: 5px;
   border: 0;
@@ -17,13 +17,23 @@
   font-weight: 700;
   font-size: 20px;
 }
+.contact-btn{
+  font-weight: 700;
+  font-size: 20px;
+  height: 100px;
+  border: 1px solid #FD6E0A;
+  border-radius: 5px;
+  padding: 16px 25px 15px;
+  margin-left: 27px;
+  color: #FD6E0A;
+}
 
 .header{
   background-color: #FFF8F3;
   background-image: url(../images/header_bg.png), url(../images/developer.png);
   background-repeat: no-repeat;
   /* background-position: bottom right, left; */
-  background-position: 100% 100% , 0%;
+  background-position: 100% 100% , 2%;
 }
 
 /*  header and navigation styles */
@@ -31,7 +41,7 @@
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 50px 200px;
+  padding: 50px 200px;
 }
 
 .nav-title {
@@ -81,7 +91,7 @@ nav li {
 /* main section */
 
 main{
-  max-width: 1140px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -193,4 +203,46 @@ hr{
 .resume-button{
   margin-top: 50px;
   text-align: center;
+}
+
+/* contact styles */
+
+.contact{
+  display: flex;
+  gap: 120px;
+  background: #FFF8F3;
+  padding: 130px 180px;
+  height: 450px;
+}
+.contact .section-description{
+  font-size: 16px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+.contact a{
+  text-decoration: none;
+  margin-right: 24px;
+}
+.contact .section-title{
+  text-align: left;
+  margin-bottom: 28px;
+}
+.contact input[type="text"], input[type="email"]{
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  height: 40px;
+  padding: 18px 30px;
+  color: #757575;
+}
+textarea{
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  height: 150px;
+  padding: 18px 30px;
+  color: #757575;
+}
+.message{
+  width: 65%;
 }
